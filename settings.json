@@ -1,0 +1,12 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/../build/${buildType}",
+    "cmake.generator": "Ninja",
+    "cmake.copyCompileCommands": "",
+    "cmake.configureOnOpen": true,
+    "cmake.exportCompileCommandsFile": true,
+    "cmake.configureArgs": [
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON"
+    ],
+    "C_Cpp.default.compileCommands": "${buildDIr}/compile_commands.json",
+    "cmake.parallelJobs": 10
+}
